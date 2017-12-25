@@ -2504,11 +2504,7 @@ var HomePage = (function () {
     };
     //GO to Historical
     HomePage.prototype.goToRt = function () {
-        var _this = this;
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__historical_historical__["a" /* Historical */], { token: this.token }).then(function () {
-            var index = _this.navCtrl.getActive().index;
-            _this.navCtrl.remove(0, index);
-        });
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__historical_historical__["a" /* Historical */]);
     };
     return HomePage;
 }());
